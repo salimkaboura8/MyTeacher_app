@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "824715608067",
+    "firebase_url": "https://myteacher-salim.firebaseio.com",
+    "project_id": "myteacher-salim",
+    "storage_bucket": "myteacher-salim.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:824715608067:android:1b31da51ac117bff81ce36",
+        "android_client_info": {
+          "package_name": "com.example.thedraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "824715608067-v07rpt07hccsnt6675t026ea9t4bkd53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thedraft",
+            "certificate_hash": "9d7bf9f0625e5e32e52469575fc9e90843eb82cb"
+          }
+        },
+        {
+          "client_id": "824715608067-4sqfdr2ruok94h8aum1c83jhrttgb4n5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7RzlPpjfe3wzXBdzjP-HSDl5NoUpw8tA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "824715608067-4sqfdr2ruok94h8aum1c83jhrttgb4n5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

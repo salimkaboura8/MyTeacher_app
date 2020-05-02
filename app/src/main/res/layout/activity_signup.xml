@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity"
+    android:background="@drawable/signup_bg"
+    android:fitsSystemWindows="true">
+
+
+
+    <EditText
+        android:id="@+id/firstnameET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:hint="First Name"
+        android:paddingTop="60dp"/>
+    <EditText
+        android:id="@+id/lastnameET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/emailET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_gravity="center_horizontal"/>
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/confirmpasswordET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:layout_gravity="center" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp">
+    <RadioButton
+        android:id="@+id/studentRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student" />
+    <RadioButton
+        android:id="@+id/teacherRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teacher"/>
+    </RadioGroup>
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Confirm"/>
+
+
+</LinearLayout>

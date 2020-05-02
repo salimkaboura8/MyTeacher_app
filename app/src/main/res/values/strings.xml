@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My Teacher</string>
+    <string name="student">Student</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_classes">My Classes</string>
+    <string name="my_lessons">My Lessons</string>
+    <string name="join_class">Join Class</string>
+    <string name="log_out">Log Out</string>
+    <string name="cours_de_math">Cours de math</string>
+    <string name="posted_by_kaboura_salim">Posted by Kaboura Salim</string>
+    <string name="coursinfo">Cours d\'informatique</string>
+    <string name="postedbykabourasalim">posted by Kaboura Salim</string>
+    <string name="add_lesson">Add Lesson</string>
+    <string name="create_class">Create Class</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="my_teacher">my teacher</string>
+</resources>
