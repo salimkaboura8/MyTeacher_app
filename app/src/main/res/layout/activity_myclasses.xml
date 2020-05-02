@@ -40,7 +40,7 @@
         android:layout_gravity="start"
         app:itemTextColor="@color/white"
         app:headerLayout="@layout/nav_header"
-        android:background="@color/veryDarkGrey"
+        android:background="@color/black"
         app:menu="@menu/drawer_menu">
 
     </com.google.android.material.navigation.NavigationView>
