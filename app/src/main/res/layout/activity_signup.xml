@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="120dp"
+        android:layout_marginTop="80dp"
         android:background="@drawable/customshape"
         app:boxCornerRadiusBottomEnd="20dp"
         app:boxCornerRadiusBottomStart="20dp"
@@ -24,7 +24,7 @@
 
         <EditText
             android:id="@+id/firstnameET"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
@@ -50,7 +50,7 @@
 
         <EditText
             android:id="@+id/lastnameET"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
@@ -76,7 +76,7 @@
 
         <EditText
             android:id="@+id/emailET"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
@@ -101,7 +101,7 @@
 
         <EditText
             android:id="@+id/passwordET"
-            android:layout_width="320dp"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
@@ -126,8 +126,8 @@
         app:boxCornerRadiusTopStart="20dp">
 
         <EditText
-            android:id="@+id/confirmPasswordET"
-            android:layout_width="320dp"
+            android:id="@+id/confirmpasswordET"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="8dp"
@@ -154,6 +154,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Student"
+            android:fontFamily="@font/latobold"
             android:textColor="@color/white"/>
 
         <RadioButton
@@ -161,6 +162,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Teacher"
+            android:fontFamily="@font/latobold"
             android:textColor="@color/white"/>
     </RadioGroup>
 
